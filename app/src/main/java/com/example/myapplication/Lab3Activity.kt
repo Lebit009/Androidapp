@@ -18,7 +18,7 @@ class Lab3Activity : AppCompatActivity() {
         setContentView(R.layout.activity_lab3)
 
         tv1 = findViewById(R.id.tv1)
-        et1 = findViewById(R.id.et1)
+        et1 = findViewById(R.id.tv1)
         et2 = findViewById(R.id.et2)
         btn1 = findViewById(R.id.btn1)
 
