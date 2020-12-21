@@ -51,7 +51,8 @@ class FormActivity : AppCompatActivity() {
     }
     fun submit(){
         tv5.text = "${et1.text.toString()}" +
-                "\n${et2.text.toString()}" +
+                "\n${spinner.selectedItem.toString()}"+
+                    "\n${et2.text.toString()}" +
                 "\n${et3.text.toString()}"
 
     }
